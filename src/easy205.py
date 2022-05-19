@@ -22,5 +22,5 @@ def oneWay(s, t):
 
     return tmp == t
 
-def isIsomorphic(s, t) -> :
+def isIsomorphic(s, t):
     return oneWay(s,t) and oneWay(t,s)
