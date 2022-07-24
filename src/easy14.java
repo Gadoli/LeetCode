@@ -1,3 +1,6 @@
+/*
+LeetCode - Easy 14. Longest Common Prefix
+*/
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length==0) return "";
