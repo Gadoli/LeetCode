@@ -14,7 +14,7 @@ Idea : get the HashMap of s and t by using Counter
     iter() will be an iterator on keys
     next() works an iterator and return the next value of it, here the first key
 
-Runtime: 45 ms, faster than 76.01% of Python3 online submissions for Find the Difference.
+Runtime: 32 ms, faster than 97.20% of Python3 online submissions for Find the Difference.
 Memory Usage: 13.8 MB, less than 98.45% of Python3 online submissions for Find the Difference.
 """
 
