@@ -5,6 +5,9 @@ Created on Fri Aug 19 22:08:18 2022
 @author: david
 
 LeetCode - Easy 448. Find All Numbers Disappeared in an Array
+
+Runtime: 385 ms, faster than 87.83% of Python3 online submissions for Find All Numbers Disappeared in an Array.
+Memory Usage: 26.5 MB, less than 11.39% of Python3 online submissions for Find All Numbers Disappeared in an Array.
 """
 
 def findDisappearedNumbers(nums):
