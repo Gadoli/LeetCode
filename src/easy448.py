@@ -19,5 +19,8 @@ def findDisappearedNumbers(nums):
             and do the difference with set(nums)
         there should only be numbers that do not appear in nums for the created set
             transform the set to a list and return its unique element
+            
+        N.B. : no need to transform it to list
+        precedent version : list(set([i for i in range(1,len(nums) + 1)]) - set(nums))
         """
-        return list(set([i for i in range(1,len(nums) + 1)]) - set(nums))
+        return set(range(1, len(nums)+1)) - set(nums)
