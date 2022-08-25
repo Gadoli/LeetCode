@@ -10,3 +10,6 @@ LeetCode - Easy 1108. Defanging an IP Address
 def defangIPaddr(address):
     return "".join([c if c!="." else "[.]" for c in address])
 
+# another solution 
+def defangIPaddr2(address):
+    address.replace('.','[.]')
