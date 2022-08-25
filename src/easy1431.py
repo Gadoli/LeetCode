@@ -7,5 +7,7 @@ Created on Thu Aug 25 16:21:26 2022
 LeetCode - Easy 1431. Kids With the Greatest Number of Candies
 """
 
+# optimized
 def kidsWithCandies(candies, extraCandies):
-    return [candy+extraCandies >= max(candies) for candy in candies]
+    m = max(candies)
+    return [candy+extraCandies >= m for candy in candies]
