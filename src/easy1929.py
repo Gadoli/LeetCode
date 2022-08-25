@@ -10,3 +10,10 @@ LeetCode - 1929. Concatenation of Array
 def getConcatenation(nums):
         return nums + nums
 
+# fastest solution : 
+def getConcatenation2(nums):
+    nums.extend(nums)
+    return nums
+
+
+
