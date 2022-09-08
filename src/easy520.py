@@ -7,6 +7,8 @@ Created on Thu Sep  8 19:32:17 2022
 LeetCode - Easy 520. Detect Capital
 """
 
+
+# my solution
 from string import ascii_uppercase as A_U
 from string import ascii_lowercase as a_l
 
@@ -26,3 +28,20 @@ def detectCapitalUse(word):
     else: Cap = False
     
     return AllCap or AllLow or Cap
+
+
+# from accepted - commented and understood
+def detectCapitalUse2(word):
+    # list of index having a upper char
+    upper=[]
+    
+    n=len(word)
+    for i in range(n):
+        if word[i].isupper():
+            upper.append(i)
+    
+    # number of uppercase letters
+    x=len(upper)
+    
+    # checking accordingly
+    return x==n or (x==1 and upper[0]==0) or x==0
