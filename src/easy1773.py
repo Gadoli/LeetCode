@@ -15,6 +15,8 @@ Memory
 Beats 75.93%of users with Python3
 """
 
+from typing import List
+
 class Solution:
     def countMatches(self, items: List[List[str]], ruleKey: str, ruleValue: str) -> int:
         if ruleKey == "type": index = 0
